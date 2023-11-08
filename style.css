@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+    
+    
+}
+
+body{
+    background: black;
+    color: #fff;
+    
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(header-image.png);
+   background-size: cover;
+   background-position: center;
+   padding: 10px 8%;
+   position:relative;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+nav button{
+    border: 0;
+    outline: 0;
+    background: #db0001;
+    color: #fff;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.language-btn{
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border:1px solid #fff;
+    padding: 7px 10px;
+    
+}
+.language-btn img{
+    width: 10px;
+    margin-left: 10px;
+}
+.main-title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: 100px;
+}
+.main-title h1{
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 600;
+    max-width: 650px;
+}
+.main-title h3{
+    
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.email-signup{
+    background: #fff;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.email-signup input{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+}
+.email-signup button{
+    background: #db0001;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 15px 30px;
+}
+
+/* --------features----------- */
+
+.middle{
+    padding: 50px 12px;
+    font-size: 22px;
+}
+.row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+.text-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.img-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+    
+}
+
+.img-col img{
+    display: block;
+    width: 90%;
+    margin: auto;
+    height: 400px;
+    width: 600px;
+}
+
+/*---------------------faq section---------------------------------*/
+
+.accordian{
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+    border-radius: 25px;
+
+}
+
+.faq h2{
+    text-align: center;
+}
+
+.accordian li{
+    list-style-type: none;
+    width: 100%;
+    padding: 5px;
+    border-radius: 4px;
+}
+.accordian li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+    border-radius: 6px;
+
+}
+.email{
+    border: none;
+}
+.email-subscribe{
+    max-width: 500px;
+    margin: 20px auto 60px;
+    padding-left: 30px;
+    overflow: hidden;
+    display: flex;
+    border: none;
+    
+    
+}
+body > div.faq > form > div.email > input[type=email]{
+    border: 0.1px solid gray;
+}
+
+.faq input{
+    width: 350px;
+    height: 50px;
+    background: #0e0e0e;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 12px;
+}
+.faq small{
+    font-size: 18px;
+    text-align: center;
+    padding-left: 490px;
+    
+
+}
+
+.email-subscribe button{
+    background-color: #db0001;
+    color: #fff;
+    size: 100px;
+    width: 110px;
+    height: 50px;
+margin-left: 10px;
+border-radius: 5px;
+border: none;
+cursor: pointer;
+}
+.email-subscribe button:hover{
+    background-color:#e26060 ;
+}
+
+/*--------------------footer------------------*/
+.footer{
+    padding: 50px 15% 10px;
+    border-top: 6px solid #333;
+    color: #777;
+    
+
+}
+.footer .col{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+    
+}
+.footer .col a{
+    display: block;
+    text-decoration: none;
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.footer .row{
+    align-items: flex-start;
+    padding: 10px 0;
+}
+.footer .language-btn{
+    color: #fff;
+    padding: 10PX 20PX;
+    border-radius: 3PX;
+
+}
+.copyright{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.footer .col a:hover{
+    text-decoration: underline;
+
+}
+.copyright:hover{
+    text-decoration: underline;
+}
